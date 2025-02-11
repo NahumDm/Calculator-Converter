@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="#0a3e3a"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    tools:context=".Number_conv">
+
+    <!-- From Base Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lancelot_regular"
+        android:padding="8dp"
+        android:text="FROM:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_from_base"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_green_dark" />
+
+    <!-- Input Field -->
+    <EditText
+        android:id="@+id/input_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:hint="Number"
+        android:padding="20dp"
+        android:textColor="@android:color/black" />
+
+    <!-- To Base Spinner -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lancelot_regular"
+        android:padding="8dp"
+        android:text="TO:"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner_to_base"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/holo_green_light" />
+
+    <!-- Result Field -->
+    <EditText
+        android:id="@+id/output_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:focusable="false"
+        android:hint="Result"
+        android:padding="20dp"
+        android:textColor="@android:color/black" />
+
+
+    <!-- Keyboard Layout -->
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="40px"
+        android:layout_marginRight="45dp"
+        android:fontFamily="sans-serif-medium"
+        android:padding="10dp"
+        android:text="Back to Calculator"
+        android:textColor="#FBFBFD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="40dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="14dp"
+        android:columnCount="4"
+        android:paddingTop="20dp">
+
+        <!-- Number Buttons 0-9 and A-F -->
+        <Button
+            android:id="@+id/button_7"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="7"
+            android:textSize="24sp"
+           />
+
+        <Button
+            android:id="@+id/button_8"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="8"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_9"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="9"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_F"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="F"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_4"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="4"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_5"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="5"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_6"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="6"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_E"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="E"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_1"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="1"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_2"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="2"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_3"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="3"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_D"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="D"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_0"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="0"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_A"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="A"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_B"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="B"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button_C"
+            android:fontFamily="sans-serif-medium"
+            android:padding="15dp"
+            android:text="C"
+            android:textSize="24sp" />
+
+
+        <!-- Special Buttons -->
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="10dp"
+            android:text="X"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/reload_button"
+            android:layout_marginTop="5dp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="10dp"
+            android:text="⟳"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/convert_button"
+            android:layout_width="175dp"
+            android:layout_columnSpan="2"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:padding="10dp"
+            android:text="="
+            android:textSize="27sp" />
+
+    </GridLayout>
+
+</LinearLayout>
