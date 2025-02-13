@@ -46,8 +46,10 @@ Users can easily switch between these two interfaces using a **button with Inten
 ---
 
 ## 📸 Screenshots  
-
-
+<div align="center"> 
+<img src="screenshots/Calculator.png" alt="Calculator UI" width="300";>
+<img src= "screenshots/Converter.png" alt="Converter UI" width="300";>
+</div> 
 ---
 
 ## 📝 License  
